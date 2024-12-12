@@ -1,10 +1,12 @@
 import Hero from './Hero'
 import DoctorsList from './DoctorsList'
+import PopularSpecialty from './PopularSpecialty'
 
 const Home = () => {
   return (
-    <main className='bg-gray-50'>
+    <main className='bg-white'>
       <Hero />
+      <PopularSpecialty />
       <DoctorsList />
     </main>
   )
